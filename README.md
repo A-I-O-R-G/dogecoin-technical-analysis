@@ -1,4 +1,4 @@
-# Documentação do Projeto: Análise Técnica Automatizada da Dogecoin 🐕🚀
+# Documentação Atualizada do Projeto: Análise Técnica Automatizada da Dogecoin 🐕🚀
 
 ## 1. 📜 Introdução
 Este projeto foi desenvolvido para automatizar a análise técnica da Dogecoin, utilizando Python. O script coleta dados históricos e calcula indicadores técnicos, como Médias Móveis, RSI e MACD, facilitando a visualização e interpretação de dados para traders e investidores.
@@ -13,6 +13,15 @@ Fornecer uma ferramenta poderosa que ajude traders a tomar decisões informadas 
 - Geração de sinais de compra e venda 💹
 - Visualização gráfica dos resultados com Matplotlib 🎨
 
+### Melhorias Recentes
+As seguintes melhorias foram implementadas no código:
+- Verificação de sucesso na requisição à API e tratamento de erros adequados.
+- Documentação das funções utilizando docstrings explicativas.
+- Organização das importações e uso de `import as` onde necessário para maior clareza.
+- Ajustes de visualização de acordo com a biblioteca PyQt5 da empresa.
+- Melhorias na performance das funções de cálculo, evitando chamadas redundantes.
+- Separação da lógica de visualização em uma função dedicada.
+
 ## 2. 🛠️ Instalação
 ### Requisitos do Sistema
 - Python 3.7 ou superior
@@ -24,6 +33,7 @@ Fornecer uma ferramenta poderosa que ajude traders a tomar decisões informadas 
 - `numpy`
 - `matplotlib`
 - `plotly`
+- `PyQt5` (para visualizações atualizadas)
 
 ### Guia Passo-a-Passo
 1. **Clone o repositório:**
@@ -33,11 +43,11 @@ Fornecer uma ferramenta poderosa que ajude traders a tomar decisões informadas 
    ```
 2. **Instale as dependências:**
    ```bash
-   pip install requests pandas numpy matplotlib plotly
+   pip install requests pandas numpy matplotlib plotly PyQt5
    ```
 
 ### Configuração Inicial
-Não há necessidade de configuração inicial; apenas certifique-se de que tenha acesso à Internet para a coleta de dados.
+Não há necessidade de configuração inicial; apenas certifique-se de que tem acesso à Internet para a coleta de dados.
 
 ## 3. 🚀 Uso
 ### Exemplos Práticos
@@ -47,7 +57,7 @@ python script_nome.py
 ```
 
 ### Comandos Principais
-O script processa os dados e gera as visualizações assim que é executado.
+O script processa os dados e gera as visualizações automaticamente ao ser executado.
 
 ### Configurações Disponíveis
 Parâmetros como o período para SMA ou EMA podem ser ajustados diretamente nas funções do código.
@@ -58,7 +68,7 @@ Parâmetros como o período para SMA ou EMA podem ser ajustados diretamente nas 
 
 ## 4. 🗂️ Estrutura do Projeto
 ```
-/dogecoin_analyzer
+/dogecoin-technical-analysis
 |-- script.py         # Script principal
 |-- requirements.txt   # Arquivo de requisitos
 ```
@@ -77,7 +87,7 @@ response = requests.get(url, params={'vs_currency': 'usd', 'days': '90', 'interv
 ```
 
 ### Respostas Esperadas
-Um JSON retornando os preços históricos, que será processado para criar um DataFrame do pandas.
+Uma resposta em formato JSON retornando os preços históricos, que será processada para criar um DataFrame do pandas.
 
 ## 6. 🤝 Contribuição
 ### Guia para Colaboradores
@@ -95,7 +105,7 @@ Todos os pull requests serão revisados e devem incluir testes adequados.
 
 ### Boas Práticas
 - Documente seu código de forma clara.
-- Mantenha uma estrutura de código organizada.
+- Mantenha a estrutura do código organizada.
 
 ## 7. 📄 Licença
 ### Tipo de Licença
@@ -122,7 +132,7 @@ O projeto visa desenvolver um script automatizado em Python que realiza análise
 
 ### Requisitos Não Funcionais
 - O script deve ser modular e eficiente na análise.
-- A interface gráfica deve ser intuitiva e fácil de usar.
+- A interface gráfica deve ser intuitiva e de fácil uso.
 
 ### Dependências
 - A pesquisa de APIs deve ser concluída antes da implementação da coleta de dados.
@@ -183,4 +193,4 @@ Desenvolvimento de Script para Análise Técnica Automatizada da Dogecoin
 ---
 
 ### Considerações Finais
-Essa documentação fornece um guia completo para entender e contribuir com o projeto de análise técnica da Dogecoin. Sinta-se à vontade para solicitar mais alterações ou informações! 😊
+Esta documentação fornece um guia completo para entender e contribuir com o projeto de análise técnica da Dogecoin, incluindo as melhorias recentes implementadas no código. Sinta-se à vontade para solicitar mais alterações ou informações! 😊
