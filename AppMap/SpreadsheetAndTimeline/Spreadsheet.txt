@@ -1,0 +1,91 @@
+Aqui está a planilha do projeto que integra as informações do Documento Pre Projeto e do cronograma fornecido, no formato JSON:
+
+```json
+{
+  "planilha": {
+    "titulo": "Desenvolvimento de Script para Análise Técnica Automatizada da Criptomoeda Dogecoin",
+    "data_criacao": "2024-12-30 02:23:14",
+    "descricao": "Solicito um script que automatize a análise técnica da criptomoeda Dogecoin, utilizando a linguagem de programação Python.",
+    "objetivo": "Criar uma ferramenta automatizada que facilita a análise técnica da Dogecoin, fornecendo insights valiosos para traders e investidores.",
+    "funcionalidades": [
+      "Recuperação de dados de preços históricos de Dogecoin a partir de uma API confiável, como a CoinGecko ou Binance.",
+      "Cálculo de indicadores técnicos populares, como Médias Móveis (SMA e EMA), Índice de Força Relativa (RSI), e Convergência/Divergência de Médias Móveis (MACD).",
+      "Implementação de recursos para identificação de padrões de candlestick e suas interpretações.",
+      "Geração de sinais de compra e venda com base nos cálculos dos indicadores.",
+      "Visualização gráfica dos dados obtidos e dos sinais gerados, utilizando bibliotecas como Matplotlib ou Plotly."
+    ],
+    "recursos_necessarios": [
+      "Python",
+      "Bibliotecas de análise de dados (Pandas)",
+      "Bibliotecas de visualização (Matplotlib ou Plotly)",
+      "Acesso a APIs de criptomoedas"
+    ],
+    "parte_interessada": [
+      "Desenvolvedores",
+      "Traders de criptomoedas",
+      "Analistas financeiros"
+    ],
+    "status": "Em andamento",
+    "cronograma": {
+      "etapas": [
+        {
+          "titulo_etapa": "Levantamento de Requisitos",
+          "descricao": "Reunião com partes interessadas para definir e documentar todos os requisitos do script.",
+          "data_inicio": "2024-01-02",
+          "data_fim": "2024-01-07"
+        },
+        {
+          "titulo_etapa": "Pesquisa de APIs",
+          "descricao": "Análise das APIs disponíveis para recuperação de dados de preços da Dogecoin.",
+          "data_inicio": "2024-01-08",
+          "data_fim": "2024-01-10"
+        },
+        {
+          "titulo_etapa": "Implementação da Coleta de Dados",
+          "descricao": "Desenvolver a funcionalidade de recuperação de dados históricos e em tempo real via API.",
+          "data_inicio": "2024-01-11",
+          "data_fim": "2024-01-20"
+        },
+        {
+          "titulo_etapa": "Cálculo de Indicadores Técnicos",
+          "descricao": "Implementar o cálculo dos indicadores técnicos: SMA, EMA, RSI e MACD.",
+          "data_inicio": "2024-01-21",
+          "data_fim": "2024-01-31"
+        },
+        {
+          "titulo_etapa": "Identificação de Padrões de Candlestick",
+          "descricao": "Criar funções para identificação e interpretação de padrões de candlestick.",
+          "data_inicio": "2024-02-01",
+          "data_fim": "2024-02-10"
+        },
+        {
+          "titulo_etapa": "Geração de Sinais de Compra e Venda",
+          "descricao": "Desenvolver a lógica para geração de sinais de compra e venda com base nos indicadores.",
+          "data_inicio": "2024-02-11",
+          "data_fim": "2024-02-20"
+        },
+        {
+          "titulo_etapa": "Visualização Gráfica",
+          "descricao": "Implementar visualização gráfica utilizando Matplotlib ou Plotly.",
+          "data_inicio": "2024-02-21",
+          "data_fim": "2024-02-28"
+        },
+        {
+          "titulo_etapa": "Testes e Validação",
+          "descricao": "Realizar testes funcionais e validação do script para garantir eficiência e precisão.",
+          "data_inicio": "2024-02-29",
+          "data_fim": "2024-03-06"
+        },
+        {
+          "titulo_etapa": "Documentação e Entrega",
+          "descricao": "Preparar a documentação do projeto e entregar a versão final do script.",
+          "data_inicio": "2024-03-07",
+          "data_fim": "2024-03-12"
+        }
+      ]
+    }
+  }
+}
+```
+
+Essa planilha apresenta um resumo claro e estruturado do projeto, incluindo o título, descrição, objetivos, funcionalidades, recursos necessários, partes interessadas e o cronograma detalhado das etapas do projeto.
